@@ -3,7 +3,7 @@
                 $(el).click((e) => {
                     e.preventDefault()
                     let page_url = $(el).attr('href')
-                    page_url = 'http://127.0.0.1:8000' +  page_url
+                    page_url = 'https://computer-yes-science.herokuapp.com' +  page_url
 
                     $.ajax({
                         url: page_url,
@@ -23,7 +23,7 @@
                  $(el).click((e) => {
                      e.preventDefault()
                      let value_search = document.getElementById('sch_inp').value;
-                     let search_href = 'http://127.0.0.1:8000/?search=' + value_search;
+                     let search_href = 'https://computer-yes-science.herokuapp.com/?search=' + value_search;
 
                       $.ajax({
                         url: search_href,
