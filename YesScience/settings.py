@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = SECRET_KEY
-# SECRET_KEY = 'vw^nl_nl0#ikrc1ln(-t1-h3hz=ux&fygle3q-!mza&i9px@k='
+#SECRET_KEY = 'vw^nl_nl0#ikrc1ln(-t1-h3hz=ux&fygle3q-!mza&i9px@k='
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -89,12 +89,12 @@ WSGI_APPLICATION = 'YesScience.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-#DATABASES = {
+# DATABASES = {
 #    'default': {
 #        'ENGINE': 'django.db.backends.sqlite3',
 #        'NAME': BASE_DIR / 'db.sqlite3',
 #    }
-#}
+# }
 
 DATABASES = {
     'default': {

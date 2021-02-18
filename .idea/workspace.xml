@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35320a5a-9eb5-47e7-856b-231ecba31212" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/article/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing_page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing_page/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing_page/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing_page/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing_page/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing_page/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing_page/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing_page/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing_page/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YesScience/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/YesScience/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YesScience/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/YesScience/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/article/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_page/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_page/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/migrations/0001_initial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +40,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\iavor\OneDrive\Рабочий стол\Python\YesScience\.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1oc1SiL2POWhIuehtmWxsxUSEMb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -129,7 +117,10 @@
       <workItem from="1613635615862" duration="229000" />
       <workItem from="1613635910148" duration="126000" />
       <workItem from="1613636241115" duration="240000" />
-      <workItem from="1613636510606" duration="1935000" />
+      <workItem from="1613636510606" duration="5878000" />
+      <workItem from="1613642811531" duration="5000" />
+      <workItem from="1613642835842" duration="57000" />
+      <workItem from="1613643057211" duration="179000" />
     </task>
     <servers />
   </component>
@@ -137,26 +128,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613643064995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613643064995" />
     <state x="268" y="275" key="FileChooserDialogImpl" timestamp="1613631606206">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="268" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613631606206" />
-    <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1613636483007">
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1613642803224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613636483007" />
-    <state width="1877" height="276" key="GridCell.Tab.0.center" timestamp="1613636483006">
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613642803224" />
+    <state width="1877" height="276" key="GridCell.Tab.0.center" timestamp="1613642803223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613636483006" />
-    <state width="1877" height="276" key="GridCell.Tab.0.left" timestamp="1613636483006">
+    <state width="1877" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613642803223" />
+    <state width="1877" height="276" key="GridCell.Tab.0.left" timestamp="1613642803223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613636483006" />
-    <state width="1877" height="276" key="GridCell.Tab.0.right" timestamp="1613636483006">
+    <state width="1877" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613642803223" />
+    <state width="1877" height="276" key="GridCell.Tab.0.right" timestamp="1613642803223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613636483006" />
+    <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613642803223" />
     <state x="0" y="162" key="SettingsEditor" timestamp="1613637562787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
