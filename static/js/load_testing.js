@@ -46,7 +46,7 @@ let balls = 0
                 $(el).click((e) => {
                     e.preventDefault()
                     let page_url = $(el).attr('href')
-                    page_url = 'http://127.0.0.1:8000/testing/' + page_url
+                    page_url = 'https://computer-yes-science.herokuapp.com/testing/' + page_url
 
                     $("input[name='test']").each(function () {
                         if ($(this).prop('checked')) {
