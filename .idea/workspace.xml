@@ -148,10 +148,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613644513955" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1613645293123">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1613646073555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1613645293123" />
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1613646073555" />
     <state x="268" y="275" key="FileChooserDialogImpl" timestamp="1613631606206">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -172,21 +172,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613644525877" />
-    <state x="184" y="86" key="MergeDialog" timestamp="1613643754962">
+    <state x="184" y="86" key="MergeDialog" timestamp="1613646088874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613643754962" />
-    <state x="672" y="236" key="MultipleFileMergeDialog" timestamp="1613643754967">
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613646088874" />
+    <state x="672" y="236" key="MultipleFileMergeDialog" timestamp="1613646088879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="672" y="236" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613643754967" />
+    <state x="672" y="236" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613646088879" />
     <state x="0" y="162" key="SettingsEditor" timestamp="1613637562787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613637562787" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613645299957">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613646101145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613645299957" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613646101145" />
   </component>
 </project>
