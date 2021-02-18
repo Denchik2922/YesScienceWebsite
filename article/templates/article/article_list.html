@@ -1,0 +1,60 @@
+{% extends "base_template.html" %}
+{% load static %}
+
+
+{% block content %}
+    {% include 'includes/search_menu.html' %}
+
+    <div class="container" id="main_cont">
+		<div class="row" style="margin-top:50px; position:relative; height: 580px;">
+         {% if is_paginated %}
+            {% if page_obj.has_previous %}
+                <div class="pag page prev_page" >
+                    <a class="page_obj" href="?page={{page_obj.previous_page_number}}"><i class="fas fa-angle-left"></i></a>
+                </div>
+            {% endif %}
+            {% if page_obj.has_next%}
+                <div class="pag page next_page">
+                    <a class="page_obj" href="?page={{ page_obj.next_page_number }}"><i class="fas fa-angle-right"></i></a>
+                </div>
+            {% endif %}
+
+             {% endif %}
+
+            {% if article_list %}
+                {% for article in article_list %}
+                <div class="col-4 main_content">
+				    <div>
+					    <img id="main" src="{{ article.poster.url }}" alt="{{ article.title }}">
+					    <div id="holder"><h2><a href="{{ article.get_absolute_url }}">{{ article.title }}</a></h2></div>
+				    </div>
+			     </div>
+                 {% endfor %}
+            {% else %}
+                <h1>По вашему запросу ничего не найдено</h1>
+            {% endif %}
+
+
+
+		</div>
+		<div class="row">
+			<div class="col-12 pag paginator">
+                {% if is_paginated %}
+                    {% for page in paginator.page_range %}
+                        {% if page == page_obj.number %}
+                            <a class="page_obj point_of_page" style="background: #5690BF;" href="?page={{ page }}"></a>
+                        {% else %}
+                            <a class="page_obj point_of_page" href="?page={{ page }}"></a>
+                        {% endif %}
+                    {% endfor %}
+
+                {% endif %}
+
+			</div>
+		</div>
+	</div>
+
+
+    <script src="{% static 'js/load_article' %}"></script>
+
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends "base_template.html" %}
+
+{% block title %}
+    {{ article.title }}
+{% endblock %}
+
+
+{% block content %}
+    <div class="container">
+        {% for text in article.articletext_set.all %}
+
+            {% if text.rotate %}
+
+                <div class="container article_content">
+                    <div class="row title_content">
+                        <div class="col-12">
+                            <h1>{{ text.title }}</h1>
+                        </div>
+                    </div>
+                    <div class="row article">
+                        <div class="col-6 text">
+                            <p>{{ text.text }}</p>
+                        </div>
+                        <div class="col-6">
+                            <img style="height: 100%;width: 100%;" src="{{ text.image.url }}" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            {% else %}
+
+                <div class="container article_content">
+                    <div class="row title_content">
+                        <div class="col-12">
+                            <h1>{{ text.title }}</h1>
+                        </div>
+                    </div>
+                    <div class="row article">
+                        <div class="col-6"><img style="height: 100%;width: 100%;" src="{{ text.image.url }}" alt=""></div>
+                        <div class="col-6 text">
+                            <p>
+                                {{ text.text }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            {% endif %}
+
+        {% endfor %}
+    </div>
+
+{% endblock %}

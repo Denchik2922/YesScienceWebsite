@@ -1,0 +1,1 @@
+web: gunicorn YesScience.wsgi --log-file –

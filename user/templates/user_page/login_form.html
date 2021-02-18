@@ -1,0 +1,23 @@
+{% extends "register_page.html" %}
+
+{% block title %}
+    Вход
+{% endblock %}
+
+{% block content %}
+
+<div class="form">
+		<div>
+		<form action="{% url 'login_url' %}" method="post">
+            {% csrf_token %}
+			<label for="">Логин</label>
+			<input class="input_user" type="text" name="username">
+			<label for="">Пароль</label>
+			<input class="input_user" type="password" name="password">
+            <a href="{% url 'register_url' %}">Зарегистрироваться</a>
+			<input class="inp_sub" type="submit" value="Войти">
+		</form>
+		</div>
+	</div>
+
+{% endblock %}

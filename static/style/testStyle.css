@@ -1,0 +1,54 @@
+.tile_test{
+	text-align: center;
+	margin: 40px 0px 40px 0px; 
+}
+
+.testing_content .row{
+	margin-top: 60px;
+}
+.answers li{
+	margin-top: 20px;
+}
+
+.answers li label{
+	font-size: 20px;
+}
+
+.count_tests{
+	text-align: end;
+}
+
+.btn_next{
+   width: max-content;
+    height: 40px;
+    background: #1D3040;
+    display: inline-flex;
+    justify-content: center;
+    flex-flow: column;
+    border: none;
+}
+
+
+.btn_next:hover{
+	background: #5690BF;
+}
+
+#start_test_menu{
+	text-align: center;
+	height: 456px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#start_test_menu #start_test{
+	width: max-content;
+	height: max-content;
+	background: #1D3040;
+	color: white;
+	border: none;
+}
+
+#start_test_menu #start_test:hover{
+		background: #5690BF;
+}

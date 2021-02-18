@@ -1,0 +1,73 @@
+{% extends "base_template.html" %}
+{% load static %}
+
+{% block title %}
+    Тестирование
+{% endblock %}
+
+{% block content %}
+    <div class="container" id="start_test_menu">
+        <row>
+            <col-12>
+                <h4>Тест будет состоять из {{ paginator.count }} вопросов</h4>
+                <button id="start_test">Начать тест</button>
+            </col-12>
+
+        </row>
+
+    </div>
+
+    <div class="container testing_content" id="test_page" style="display: none">
+
+        {% for question in question_list %}
+            <div class="row tile_test ">
+                <div class="col-12 ">
+                    <h2>{{ question.title }}</h2>
+                    <p>{{ page_obj.number }} / {{ paginator.count }}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <form action="" class="answers">
+                        <ul>
+                            {% for answer in question.wronganswer_set.all %}
+                                 <li>
+                                    <input onclick="check(0)" id="test" name="test" type="radio">
+                                    <label for="">{{ answer.title }}</label>
+                                 </li>
+                            {% endfor %}
+                             {% for answer in question.trueanswer_set.all %}
+                                 <li>
+                                    <input onclick="check(1)" id="test" name="test" type="radio">
+                                    <label for="">{{ answer.title }}</label>
+                                 </li>
+                            {% endfor %}
+                        </ul>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 count_tests">
+                    <form action="{% url 'test_url' %}" method="post">
+                        {% csrf_token %}
+                        <label id="count_test" for="" hidden>{{ paginator.count }}</label>
+                        <input type="text" id="status" name="status" hidden>
+                        {% if page_obj.has_next %}
+                            <button style="display: none" class="btn_next"><a class="page_obj" href="?page={{ page_obj.next_page_number }}">Далее</a>
+                            </button>
+                        {% else %}
+                            <input style="display: none; color:white; " class="btn_next" onclick="update_status()"
+                                   type="submit" value="Завершить">
+
+                        {% endif %}
+                    </form>
+
+
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <script src="{% static 'js/load_testing.js' %}"></script>
+
+{% endblock %}

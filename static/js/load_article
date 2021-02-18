@@ -1,0 +1,50 @@
+ function ajaxPaginator() {
+            $('.page_obj').each((index, el) =>{
+                $(el).click((e) => {
+                    e.preventDefault()
+                    let page_url = $(el).attr('href')
+                    page_url = 'http://127.0.0.1:8000' +  page_url
+
+                    $.ajax({
+                        url: page_url,
+                        type: 'GET',
+                        success: (data) => {
+                            $('#main_cont').empty()
+                            $('#main_cont').append( $(data).filter('#main_cont').html())
+                        }
+                    })
+
+                })
+            })
+        }
+        function ajaxSearch() {
+             $('.sch_btn').each((index, el) => {
+
+                 $(el).click((e) => {
+                     e.preventDefault()
+                     let value_search = document.getElementById('sch_inp').value;
+                     let search_href = 'http://127.0.0.1:8000/?search=' + value_search;
+
+                      $.ajax({
+                        url: search_href,
+                        type: 'GET',
+                        success: (data) => {
+                            $('#main_cont').empty()
+                            $('#main_cont').append( $(data).filter('#main_cont').html())
+                        }
+                    })
+
+                 })
+             })
+        }
+
+        $(document).ready(function () {
+            ajaxPaginator()
+            ajaxSearch()
+        })
+
+        $(document).ajaxStop(function () {
+            ajaxPaginator()
+            ajaxSearch()
+        })
+
