@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35320a5a-9eb5-47e7-856b-231ecba31212" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/migrations/0001_initial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613644950226</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete gitignore">
+      <created>1613645293576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613645293576</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,17 +140,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Edit migartions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit migartions" />
+    <MESSAGE value="delete gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613644513955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613644513955" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1613644949742">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1613645293123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1613644949742" />
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1613645293123" />
     <state x="268" y="275" key="FileChooserDialogImpl" timestamp="1613631606206">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -176,9 +184,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613637562787" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613644957154">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613645299957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613644957154" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613645299957" />
   </component>
 </project>
