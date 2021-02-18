@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35320a5a-9eb5-47e7-856b-231ecba31212" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YesScience/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/YesScience/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/article/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing_page/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_page/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/migrations/0001_initial.py" afterDir="false" />
@@ -65,15 +63,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\iavor\OneDrive\Рабочий стол\Python\YesScience\article\templates\article" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\iavor\OneDrive\Рабочий стол\Python\YesScience" />
       <recent name="C:\Users\iavor\OneDrive\Рабочий стол\Python\YesScience\user\templates" />
       <recent name="C:\Users\iavor\OneDrive\Рабочий стол\Python\YesScience\user\migrations" />
       <recent name="C:\Users\iavor\OneDrive\Рабочий стол\Python\YesScience\testing_page\migrations" />
       <recent name="C:\Users\iavor\OneDrive\Рабочий стол\Python\YesScience\testing_page\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\iavor\OneDrive\Рабочий стол\Python\YesScience\article\templates\article" />
     </key>
   </component>
   <component name="RunManager">
@@ -128,33 +126,45 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613643064995">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613644513955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613643064995" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613644513955" />
     <state x="268" y="275" key="FileChooserDialogImpl" timestamp="1613631606206">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="268" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613631606206" />
-    <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1613642803224">
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1613644525878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613642803224" />
-    <state width="1877" height="276" key="GridCell.Tab.0.center" timestamp="1613642803223">
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613644525878" />
+    <state width="1877" height="276" key="GridCell.Tab.0.center" timestamp="1613644525877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613642803223" />
-    <state width="1877" height="276" key="GridCell.Tab.0.left" timestamp="1613642803223">
+    <state width="1877" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613644525877" />
+    <state width="1877" height="276" key="GridCell.Tab.0.left" timestamp="1613644525877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613642803223" />
-    <state width="1877" height="276" key="GridCell.Tab.0.right" timestamp="1613642803223">
+    <state width="1877" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613644525877" />
+    <state width="1877" height="276" key="GridCell.Tab.0.right" timestamp="1613644525877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613642803223" />
+    <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613644525877" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1613643754962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613643754962" />
+    <state x="672" y="236" key="MultipleFileMergeDialog" timestamp="1613643754967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="236" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613643754967" />
     <state x="0" y="162" key="SettingsEditor" timestamp="1613637562787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613637562787" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613643721702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613643721702" />
   </component>
 </project>
